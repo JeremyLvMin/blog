@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>test | Jeremy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="在平时的工作之中，需要应用到垂直居中的场景较多。这里简单总结下使用css实现的三种方法，也是我比较常用的方案。 第一种，简约而不简单的==行高== 单行文本  针对单行文本，处理起来比较简单，设定行高值为所需高度即可实现，举个栗子：html： 123&amp;lt;div class=&quot;mid-text&quot;&amp;gt;    单行文本固定高度内垂直居中&amp;lt;/div&amp;gt; 12345678.mid-text">
+<meta property="og:type" content="article">
+<meta property="og:title" content="test">
+<meta property="og:url" content="http://yoursite.com/2017/06/24/test/index.html">
+<meta property="og:site_name" content="Jeremy">
+<meta property="og:description" content="在平时的工作之中，需要应用到垂直居中的场景较多。这里简单总结下使用css实现的三种方法，也是我比较常用的方案。 第一种，简约而不简单的==行高== 单行文本  针对单行文本，处理起来比较简单，设定行高值为所需高度即可实现，举个栗子：html： 123&amp;lt;div class=&quot;mid-text&quot;&amp;gt;    单行文本固定高度内垂直居中&amp;lt;/div&amp;gt; 12345678.mid-text">
+<meta property="og:image" content="http://static.lvmin.me/o_1b6j4baej1bqa1gdc1l2a1j6nerr7.png">
+<meta property="og:image" content="http://static.lvmin.me/o_1b6ksu1cru0krfm961vs2lq87.png">
+<meta property="og:image" content="http://static.lvmin.me/o_1b6j6qhcarqk1lm31s0852u1jg97.png">
+<meta property="og:image" content="http://static.lvmin.me/o_1b6kujpej1iei6luvpnrah1nku7.png">
+<meta property="og:updated_time" content="2017-07-21T07:17:43.182Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="test">
+<meta name="twitter:description" content="在平时的工作之中，需要应用到垂直居中的场景较多。这里简单总结下使用css实现的三种方法，也是我比较常用的方案。 第一种，简约而不简单的==行高== 单行文本  针对单行文本，处理起来比较简单，设定行高值为所需高度即可实现，举个栗子：html： 123&amp;lt;div class=&quot;mid-text&quot;&amp;gt;    单行文本固定高度内垂直居中&amp;lt;/div&amp;gt; 12345678.mid-text">
+<meta name="twitter:image" content="http://static.lvmin.me/o_1b6j4baej1bqa1gdc1l2a1j6nerr7.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Jeremy" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/blog/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/blog/" id="logo">Jeremy</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/blog/">Home</a>
+        
+          <a class="main-nav-link" href="/blog/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-test" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/blog/2017/06/24/test/" class="article-date">
+  <time datetime="2017-06-24T07:37:14.000Z" itemprop="datePublished">2017-06-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      test
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>在平时的工作之中，需要应用到垂直居中的场景较多。这里简单总结下使用css实现的三种方法，也是我比较常用的方案。</p>
+<h6 id="第一种，简约而不简单的-行高"><a href="#第一种，简约而不简单的-行高" class="headerlink" title="第一种，简约而不简单的==行高=="></a>第一种，简约而不简单的==行高==</h6><ul>
+<li>单行文本</li>
+</ul>
+<p>针对单行文本，处理起来比较简单，设定行高值为所需高度即可实现，举个栗子：<br>html：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"mid-text"</span>&gt;</span></div><div class="line">    单行文本固定高度内垂直居中</div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.mid-text</span> &#123;</div><div class="line">    <span class="attribute">width</span>: <span class="number">400px</span>;</div><div class="line">    <span class="attribute">margin</span>: <span class="number">0</span> auto;</div><div class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ddd</span>;</div><div class="line">    <span class="comment">/* 以下为重点 */</span></div><div class="line">    <span class="attribute">line-height</span>: <span class="number">200px</span>;</div><div class="line">    <span class="attribute">text-align</span>: center;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>效果图</p>
+<p><img src="http://static.lvmin.me/o_1b6j4baej1bqa1gdc1l2a1j6nerr7.png" alt="image"></p>
+<p><strong>- 多行文本</strong><br>多行文本主要应用于未知文本长度的场景，这种需求可以通过行高搭配vertical-align属性来实现。</p>
+<p>html</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"mid-text"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"inner"</span>&gt;</span></div><div class="line">        这是第一行文本</div><div class="line">        <span class="tag">&lt;<span class="name">br</span>&gt;</span> 这是第二行文本</div><div class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>css<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.mid-text</span> &#123;</div><div class="line">    <span class="attribute">width</span>: <span class="number">400px</span>;</div><div class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ddd</span>;</div><div class="line">    <span class="attribute">text-align</span>: center;</div><div class="line">    <span class="comment">/* 以下为重点 */</span></div><div class="line">    <span class="attribute">line-height</span>: <span class="number">200px</span>;</div><div class="line">    <span class="attribute">font-size</span>: <span class="number">0</span>;</div><div class="line">&#125;</div><div class="line"><span class="selector-class">.inner</span> &#123;</div><div class="line">    <span class="comment">/* 以下为重点 */</span></div><div class="line">    <span class="attribute">display</span>: inline-block;</div><div class="line">    <span class="attribute">vertical-align</span>: middle;</div><div class="line">    <span class="attribute">font-size</span>: <span class="number">14px</span>;</div><div class="line">    <span class="attribute">line-height</span>: <span class="number">1.4em</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>效果图</p>
+<p><img src="http://static.lvmin.me/o_1b6ksu1cru0krfm961vs2lq87.png" alt="image"></p>
+<p>这里有一个关键点需要注意一下，就是font-size:0这个属性值，这跟基线有点关联。对于vertical-align属性，摘录下w3c的定义：</p>
+<blockquote>
+<p>该属性定义行内元素的基线相对于该元素所在行的基线的垂直对齐。允许指定负长度值和百分比值。这会使元素降低而不是升高。在表单元格中，这个属性会设置单元格框中的单元格内容的对齐方式。</p>
+</blockquote>
+<p>在这里行高我设定的是300px,.inner相对于父元素的基线居中对齐，所以inner的位置会受到父元素基线位置的影响，故而在父元素中将font-size置零。</p>
+<ul>
+<li>图片的居中控制</li>
+</ul>
+<p>图片的居中处理需求出现的频次也是比较高的，同样使用行高搭配vertical-align属性也可以轻松实现。</p>
+<p>html<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"mid-img"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://static.lvmin.me/o_1b6j4ulb81k07mbv1uoo1p456ib7.jpg"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>css</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.mid-img</span> &#123;</div><div class="line">    <span class="attribute">width</span>: <span class="number">400px</span>;</div><div class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ddd</span>;</div><div class="line">    <span class="attribute">text-align</span>: center;</div><div class="line">    <span class="comment">/* 以下为重点 */</span></div><div class="line">    <span class="attribute">line-height</span>: <span class="number">300px</span>;</div><div class="line">    <span class="attribute">font-size</span>: <span class="number">0</span>;</div><div class="line">&#125;</div><div class="line"><span class="selector-class">.mid-img</span> <span class="selector-tag">img</span> &#123;</div><div class="line">    <span class="comment">/* 以下为重点 */</span></div><div class="line">    <span class="attribute">vertical-align</span>: middle;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>效果如下</p>
+<p><img src="http://static.lvmin.me/o_1b6j6qhcarqk1lm31s0852u1jg97.png" alt="image"></p>
+<h6 id="第二种，黑魔法的-表格"><a href="#第二种，黑魔法的-表格" class="headerlink" title="第二种，黑魔法的==表格=="></a>第二种，黑魔法的==表格==</h6><p>在过去的相当长时间内很多前端谈表格色变，由于曾经一段时期内，很多人滥用表格的很多布局特性去做页面的布局，这当然违背了表格的语义和原本设计功能。不可否认，表格确实带有很多神奇的特性，在某些情况下，我也会利用表格去实现一些功能，比如在这里我就是用它来实现垂直居中的需求。</p>
+<p>html</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"wrap"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"cell"</span>&gt;</span></div><div class="line">        这是一段测试文本这是一段测试文本这是一段测试文本这是一段测试文本</div><div class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>css</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.wrap</span> &#123;</div><div class="line">    <span class="attribute">width</span>: <span class="number">400px</span>;</div><div class="line">    <span class="comment">/* 以下为重点 */</span></div><div class="line">    <span class="attribute">display</span>: table;</div><div class="line">&#125;</div><div class="line"><span class="selector-class">.cell</span> &#123;</div><div class="line">    <span class="comment">/* 以下为重点 */</span></div><div class="line">    <span class="attribute">display</span>: table-cell;</div><div class="line">    <span class="attribute">height</span>: <span class="number">200px</span>;</div><div class="line">    <span class="attribute">border</span>: <span class="number">1px</span> solid <span class="number">#ddd</span>;</div><div class="line">    <span class="attribute">vertical-align</span>: middle;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>效果图</p>
+<p><img src="http://static.lvmin.me/o_1b6kujpej1iei6luvpnrah1nku7.png" alt="image"></p>
+<p>这种方式的优点是代码简单，而且可居中的元素也比较多，单行文本多行文本图片全都不在话下。</p>
+<h6 id="第三种，absolute和padding"><a href="#第三种，absolute和padding" class="headerlink" title="第三种，absolute和padding"></a>第三种，absolute和padding</h6><p>上面两种方案都是适用于内容区域高度不一定固定的场景，也是业务中最长遇见的场景，但是偶尔会遇到==内容区域尺寸已经固定==，继而需要垂直居中的业务情景，这种需求解决起来就比较简单了。这里简单罗列一下，就不详细描述了。</p>
+<ol>
+<li>上下设定等值padding。这个也是最常用的</li>
+<li>利用绝对定位。例如：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">.inner &#123;</div><div class="line">    position: absolute;</div><div class="line">    top: 50%;</div><div class="line">    marigin-top: -height;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>以上。</p>
+<p>##测试</p>
+<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/06/24/test/" data-id="cj5dl6y4w00017sntej7j1cl0" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2017/07/21/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2017/06/">June 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/blog/2017/07/21/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2017/06/24/test/">test</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 Jeremy<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/blog/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css">
+  <script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js"></script>
+
+  </div>
+</body>
+</html>
